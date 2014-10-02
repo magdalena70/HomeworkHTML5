@@ -58,6 +58,11 @@ table .white-row {
 	background: white;
 }
 
+img {
+	width: 33px;
+	height: 23px;
+}
+
 table .gray-row {
 	background: lightgray;
 }
