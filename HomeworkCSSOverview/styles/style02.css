@@ -30,8 +30,8 @@ body > header:nth-child(1) {
 
 nav {
 	background: rgba(255, 255, 255, 0.83);
-	width: 210px;
-	height: 220px;
+	width: 200px;
+	height: 210px;
 	border-radius: 10px;
 	position: fixed;
 	margin-top: 30px;
@@ -113,13 +113,13 @@ nav ul li:nth-child(6):hover {
 }
 
 article {
-	width: 60%;
+	width: 73%;
 	height: auto;
 	background: rgba(255, 255, 255, 0.83);
 	border-radius: 10px;
-	margin-left: 300px;
+	margin-left: 260px;
 	margin-top: 30px;
-	padding: 15px;
+	padding: 25px;
 }
 
 article header {
