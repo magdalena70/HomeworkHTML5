@@ -42,8 +42,7 @@ body >* {
 	border: solid 3px black;
 	border-radius: 50%;
 	background: #FF0000;
-	margin-top: 75px;
-	margin-left: -105px;
+	margin-left: 245px;
 }
 
 #mouth {
@@ -52,8 +51,8 @@ body >* {
 	border: solid 3px black;
 	border-radius: 70px;
 	background: white;
-	margin-top: 120px;
-	margin-left: -100px;
+	margin-left: 150px;
+	margin-top: 15px;
 }
 
 #tooth_1, #tooth_2 {
