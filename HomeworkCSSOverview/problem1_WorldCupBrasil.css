@@ -58,11 +58,6 @@ table .white-row {
 	background: white;
 }
 
-img {
-	width: 33px;
-	height: 23px;
-}
-
 table .gray-row {
 	background: lightgray;
 }
@@ -108,4 +103,74 @@ table .team_2 {
 
 table .team_1:hover, .team_2:hover {
 	background: gray;
+}
+
+#img_Brasil {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Brasil.png);
+	float: right;
+}
+
+#img_Mexico {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Mexico.png);
+	float: left;
+}
+
+#img_Spain {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Spain.png);
+	float: right;
+}
+
+#img_Netherlands {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Netherlands.png);
+	float: left;
+}
+
+#img_Italy {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Italy.png);
+	float: right;
+}
+
+#img_England {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/England.png);
+	float: left;
+}
+
+#img_Argentina {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Argentina.png);
+	float: right;
+}
+
+#img_Bosnia {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Bosnia.png);
+	float: left;
+}
+
+#img_Germany {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Germany.png);
+	float: right;
+}
+
+#img_Portugal {
+	width: 33px;
+	height: 23px;
+	background-image: url(img/Portugal.png);
+	float: left;
 }
