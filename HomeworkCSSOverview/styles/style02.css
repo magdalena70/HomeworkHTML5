@@ -12,8 +12,8 @@ body {
 
 
 body > header:nth-child(1) {
-	width: 103%;
-	margin: -7px;
+	width: 100%;
+	
 	text-align: center;
 	color: yellow;
 	font-weight: bold;
