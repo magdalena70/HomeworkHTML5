@@ -21,11 +21,11 @@ body > header:nth-child(1) {
 	height: 60px;
 	background: linear-gradient(
 	to right,
-	#F00000,
-	#F00000 33.3%,
-	#3FA051 33.3%,
-	#3FA051 67.7%,
-	blue 67.7%);	
+	#FF0000,
+	#FF0000 33.3%,
+	#008400 33.3%,
+	#008400 67.7%,
+	#0000FF 67.7%);	
 }
 
 nav {
@@ -67,7 +67,7 @@ nav header {
 nav ul li:nth-child(1):hover {
 	margin-left: -55px;
 	margin-right: 10px;
-	background: #F00000;
+	background: #FF0000;
 	border-radius: 5px;
 	list-style-position: inside;
 }
@@ -75,7 +75,7 @@ nav ul li:nth-child(1):hover {
 nav ul li:nth-child(2):hover {
 	margin-left: -55px;
 	margin-right: 10px;
-	background: #FFF000;
+	background: #FFA800;
 	border-radius: 5px;
 	list-style-position: inside;
 }
@@ -83,7 +83,7 @@ nav ul li:nth-child(2):hover {
 nav ul li:nth-child(3):hover {
 	margin-left: -55px;
 	margin-right: 10px;
-	background: #FFA800;
+	background: #FFFF00;
 	border-radius: 5px;
 	list-style-position: inside;
 }
@@ -91,7 +91,7 @@ nav ul li:nth-child(3):hover {
 nav ul li:nth-child(4):hover {
 	margin-left: -55px;
 	margin-right: 10px;
-	background: #3FA051;
+	background: #008400;
 	border-radius: 5px;
 	list-style-position: inside;
 }
@@ -99,7 +99,7 @@ nav ul li:nth-child(4):hover {
 nav ul li:nth-child(5):hover {
 	margin-left: -55px;
 	margin-right: 10px;
-	background: #02FE15;
+	background: #0000FF;
 	border-radius: 5px;
 	list-style-position: inside;
 }
@@ -107,7 +107,7 @@ nav ul li:nth-child(5):hover {
 nav ul li:nth-child(6):hover {
 	margin-left: -55px;
 	margin-right: 10px;
-	background: #9700EF;
+	background: #840084;
 	border-radius: 5px;
 	list-style-position: inside;
 }
@@ -135,7 +135,7 @@ article a {
 }
 
 article #webColors {
-	background: #F00000;
+	background: #FF0000;
 }
 
 article #webSafeColors {
@@ -144,20 +144,20 @@ article #webSafeColors {
 }
 
 article #RGB {
-	background: #FFF000;
+	background: #FFFF00;
 	color: black;
 }
 
 article #RGBA {
-	background: #3FA051;
+	background: #008400;
 }
 
 article #\#HSLHSV {
-	background: #02FE15;
+	background: #0000FF;
 }
 
 article #\#lorem {
-	background: #9700EF;
+	background: #840084;
 }
 
 section article div::first-line {	
