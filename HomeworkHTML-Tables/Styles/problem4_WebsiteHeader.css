@@ -30,6 +30,17 @@ table form input {
 	border-top-left-radius: 10px;
 	outline:none;
 	margin-right: -4px;
+	outline: none;
+}
+
+table form a {
+	color: white;
+	text-decoration: none;
+}
+
+table form a:hover {
+	color: orange;
+	text-decoration: underline;
 }
 
 table form button {
@@ -58,11 +69,27 @@ table .nav-bar a {
 
 table .nav-bar a:hover {
 	background: #4CA0DB;
+	cursor: pointer;
 }
 
 table .bell {
 	padding-top:13px;
 	text-align: right;
+}
+
+table .bell a {
+	color: white;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+table .bell a img{
+	vertical-align: middle;
+}
+
+table .bell a:hover {
+	color: orange;
+	text-decoration: underline;
 }
 
 p a{
