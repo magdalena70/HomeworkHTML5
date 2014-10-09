@@ -11,7 +11,7 @@ body {
 }
 
 table {
-	width: 65%;
+	width: 80%;
 	height: auto;
 	margin:10px auto;
 	text-align: center;
@@ -24,12 +24,10 @@ table {
 	background: -o-linear-gradient(white, black); 
 	background: -moz-linear-gradient(white, black); 
 	background: linear-gradient(white, black); 
-	
 }
 
 table .info {
 	font-size: 14px;
-	border-bottom: solid 1px black;
 }
 
 table h2 {
@@ -51,11 +49,13 @@ table tfoot, table tfoot a {
 
 table .title_1-1 td , table .title_1-2 td, table .title_1-3 td, table .title_1-4 td, table .title_1-5 td, table .title_1-6 td, table .title_1-7 td,
 table .title_2-1 td, table .title_2-2 td, table .title_2-3 td, table .title_2-4 td, table .title_2-5 td {
-	width: 100px;
+	width: 20%;
 	height: 100px;
 	border: solid 1px white;
+	border-top: solid 1px black;
 	border-bottom-left-radius: 50px;
 	border-top-right-radius: 50px;
+	font-weight: bold;
 }
 
 table th {
@@ -63,7 +63,7 @@ table th {
 }
 
 table span{
-	font-size: 10px;
+	font-size: 11px;
 }
 
 table .note {
@@ -71,12 +71,46 @@ table .note {
 	color: white;
 }
 
-table tfoot img {
-	width: 100%;
-	padding: 5px;
+table tfoot #support-nested thead th {
+	font-size: 18px;
+}
+
+table tfoot #support-nested   td {
+	width: 16%;
+	padding: 18px;
 	border: solid 1px white;
+	border-bottom: solid 1px black;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+table tfoot #support-nested, td {
+	width: 95%;
+	height: auto;
+	padding: 5px;
+	font-size: 16px;
+	border: solid 1px white;
+	border-bottom: solid 1px black;
+	border-bottom-left-radius: 70px;
+	border-top-right-radius: 70px;	
+}
+
+table tfoot #support-nested , td:hover {
+	border: solid 1px black;
+	border-bottom: solid 1px white;
+	visibility: visible;
+}
+
+table tfoot #support-nested:hover  {
+	border: solid 1px white;
+	border-top: solid 1px black;
 	border-bottom-left-radius: 70px;
 	border-top-right-radius: 70px;
+	background: -webkit-linear-gradient(black, white);
+	background: -o-linear-gradient(black, white); 
+	background: -moz-linear-gradient(black, white); 
+	background: linear-gradient(black, white);
+	visibility: visible;
 	
 }
 
