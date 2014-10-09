@@ -20,10 +20,16 @@ table {
 	font-style: italic;
 	padding: 18px;
 	
-	background: -webkit-linear-gradient(bottom, black, white); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom, black, white); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom, black, white); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(bottom, black, white); /* Standard syntax */
+	background: -webkit-linear-gradient(white, black); 
+	background: -o-linear-gradient(white, black); 
+	background: -moz-linear-gradient(white, black); 
+	background: linear-gradient(white, black); 
+	
+}
+
+table .info {
+	font-size: 14px;
+	border-bottom: solid 1px black;
 }
 
 table h2 {
