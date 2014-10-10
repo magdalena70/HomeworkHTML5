@@ -288,9 +288,9 @@ table .title_1-5 td:nth-child(4) {
 }
 
 table .title_1-5 td:nth-child(5) {
-	background: -webkit-linear-gradient(black 10%, blue 70%, red 80%, orange, yellow, white 90%); 
-    background: -o-linear-gradient(black 10%, blue 80%, red, orange, yellow, white 90%); 
-    background: -moz-linear-gradient(black 10%, blue 80%, red, orange, yellow, white 90%); 
+	background: -webkit-linear-gradient(black, black 18%, blue 18%, blue 36%, red 36%, red 54%,orange 54%, orange 72%,yellow 72%, yellow 90%, white 10%); 
+    background: -o-linear-gradient(black, black 18%, blue 18%, blue 36%, red 36%, red 54%,orange 54%, orange 72%,yellow 72%, yellow 90%, white 10%); 
+    background: -moz-linear-gradient(black, black 18%, blue 18%, blue 36%, red 36%, red 54%,orange 54%, orange 72%,yellow 72%, yellow 90%, white 10%); 
     background: linear-gradient(black, black 18%, blue 18%, blue 36%, red 36%, red 54%,orange 54%, orange 72%,yellow 72%, yellow 90%, white 10%);
 }
 
