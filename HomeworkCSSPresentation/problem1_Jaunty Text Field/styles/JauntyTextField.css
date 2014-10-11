@@ -73,7 +73,7 @@ textarea {
 :-ms-input-placeholder { /* Internet Explorer 10+ */
    color: black;
    font-family: sans-serif;
-   font-size: 19;
+   font-size: 19px;
 }
 
 .small_balloon {
