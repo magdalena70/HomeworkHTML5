@@ -45,10 +45,7 @@ textarea {
 	text-align: center;
 	resize: none;
 	background-color: #D8921A;
-    border-bottom: 4px solid #A56401;
-    border-right: 4px solid #A56401;
-    border-top: 4px solid #FCA401;
-    border-left: 4px solid #FCA401;
+	border: outset 4px #FCA401;
 	overflow: auto;
 	position: relative;
 	bottom: 3px;
