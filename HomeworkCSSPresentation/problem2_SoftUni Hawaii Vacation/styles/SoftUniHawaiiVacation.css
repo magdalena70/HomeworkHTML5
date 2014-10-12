@@ -7,9 +7,9 @@ html >* {
 	width: 900px;
 	height: 600px;
 	margin: auto;
-	background: -webkit-radial-gradient(white 45%, black 5%, white 50%); /* Safari 5.1-6.0 */
-    background: -o-radial-gradient(white 45%, black 5%, white 50%); /* For Opera 11.6-12.0 */
-    background: -moz-radial-gradient(white 45%, black 5%, white 50%); /* For Firefox 3.6-15 */
+	background: -webkit-radial-gradient(circle at 162px 130px, white 5%, #FFF8B7 1%, white 22%, #0070E4 100%); /* Safari 5.1-6.0 */
+    background: -o-radial-gradient(circle at 162px 130px, white 5%, #FFF8B7 1%, white 22%, #0070E4 100%); /* For Opera 11.6-12.0 */
+    background: -moz-radial-gradient(circle at 162px 130px, white 5%, #FFF8B7 1%, white 22%, #0070E4 100%); /* For Firefox 3.6-15 */
     background: radial-gradient(circle at 162px 130px, white 5%, #FFF8B7 1%, white 22%, #0070E4 100%); /* Standard syntax */
 }
 
