@@ -8,7 +8,7 @@ html >* {
 	height: 1510px;
 	margin: 10px auto;
 	background-image: url(../resources_3/formBackground.jpg);
-	background-repeat: no repeat;
+	background-repeat: repeat;
 	font-family: Tahoma, sans-serif;
 	color: white;
 	border-radius: 10px;
@@ -131,5 +131,3 @@ textarea {
 .master-card {
 	background-image: url(../resources_3/mastercard.png);
 }
-
-img
