@@ -121,13 +121,13 @@ textarea {
 }
 
 .visa-card {
-	background-image: url(../resources_3/visa.png);
+	background-image: url(../resources_3/visa.PNG);
 }
 
 .amEx-card {
-	background-image: url(../resources_3/amex.png);
+	background-image: url(../resources_3/amex.PNG);
 }
 
 .master-card {
-	background-image: url(../resources_3/mastercard.png);
+	background-image: url(../resources_3/mastercard.PNG);
 }
