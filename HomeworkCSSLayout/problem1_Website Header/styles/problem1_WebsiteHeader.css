@@ -134,7 +134,7 @@ input {
 button {
 	width: 36px;
 	height: 36px;
-	background-image: url(../resources/search_01.png);
+	background-image: url(../resources/search_01.PNG);
 	padding-bottom: 12px;
 	margin-left: -5px;
 	border-top-right-radius: 7px;
