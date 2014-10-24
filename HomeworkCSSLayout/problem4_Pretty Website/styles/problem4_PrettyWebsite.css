@@ -141,7 +141,7 @@ nav ul li:hover {
     transition: background-color 1.3s;
 }
 
-nav ul li  :hover {
+nav ul li:hover a{
 	color: white;
 }
 
