@@ -63,9 +63,10 @@ body {
 
 header {
 	width: 900px;
-	height: 300px;
-	margin-top: 1em;
+	height: 270px;
+	margin-top: auto;
 	background-image: url(../resources/headerBackground.jpg);
+	background-repeat: no-repeat;
 }
 
 header h1 {
