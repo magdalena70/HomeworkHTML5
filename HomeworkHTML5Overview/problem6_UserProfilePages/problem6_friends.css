@@ -28,6 +28,6 @@ ul li {
 	font-style:italic;
 }
 
-#italic , #nested-italic {
+#italic , .nested-italic {
 	list-style-type:none;
 }
