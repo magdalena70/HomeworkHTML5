@@ -1,6 +1,8 @@
 html >* {
 	padding: 0;
 	margin: 0;
+	font-size: 15px;
+	font-family: Tahoma, sans-serif;
 }
 
 #wrapper {
@@ -9,14 +11,17 @@ html >* {
 	margin: 10px auto;
 	background-image: url(../resources_3/formBackground.jpg);
 	background-repeat: repeat;
-	font-family: Tahoma, sans-serif;
 	color: white;
 	border-radius: 10px;
 }
-#wrapper h2 {
+#wrapper legend {
 	padding-left: 40px;
 	padding-top: 25px;
 	font-size: 35px;
+}
+
+#wrapper fieldset {
+	border: none;
 }
 
 #wrapper .section, #wrapper .radio-section, #wrapper .address-section {
@@ -47,6 +52,13 @@ html >* {
 
 textarea {
 	height: 165px;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	background: rgba(231, 191, 243, 0.5);
+	border: none;
+	border: inset 2px #4072ad;
 }
 
  .section label, .address-section label {
@@ -82,8 +94,9 @@ textarea {
  #visa-section, #amEx-section, #mastercard-section {
 	width: 320px;
 	height: 45px;
+	float: left;
 	position: absolute;
-	top: 1080px;
+	top: 980px;
 	font-size: 27px;
  }
  
